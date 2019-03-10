@@ -1,0 +1,16 @@
+PODS:
+  - InStatDownloadButton (0.1.0)
+
+DEPENDENCIES:
+  - InStatDownloadButton (from `../`)
+
+EXTERNAL SOURCES:
+  InStatDownloadButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  InStatDownloadButton: 7dd18c8120d98a94748cb0f64ae9701787bcec7f
+
+PODFILE CHECKSUM: 836fb563127cdf749e2767b35adf404c40d3c806
+
+COCOAPODS: 1.6.0

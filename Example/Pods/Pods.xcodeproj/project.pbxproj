@@ -1,0 +1,834 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180418766BAAEFC74A23F13EEA275FFD /* InStatDownloadButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B587E5A8A94B47150B2AAC10DBE2BB /* InStatDownloadButton-dummy.m */; };
+		4AF35E94A523F7C9AABA35A3F894E99E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		5517BAF7B35FB4DCF9925F61C17308D3 /* Pods-InStatDownloadButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0317B3CE3D77EA1092F523CDB4FCAFD2 /* Pods-InStatDownloadButton_Example-dummy.m */; };
+		5786571E223556D5002960F9 /* ComparableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57865713223556D4002960F9 /* ComparableExtension.swift */; };
+		5786571F223556D5002960F9 /* InStatCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57865714223556D4002960F9 /* InStatCircularProgress.swift */; };
+		57865720223556D5002960F9 /* InStatDownloadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57865715223556D5002960F9 /* InStatDownloadButton.swift */; };
+		57865721223556D5002960F9 /* InStatDownloadButtonState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57865716223556D5002960F9 /* InStatDownloadButtonState.swift */; };
+		57865722223556D5002960F9 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57865717223556D5002960F9 /* Utility.swift */; };
+		57865723223556D5002960F9 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57865718223556D5002960F9 /* Color.swift */; };
+		57865724223556D5002960F9 /* InStatCircularProgressViewLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57865719223556D5002960F9 /* InStatCircularProgressViewLayer.swift */; };
+		57865725223556D5002960F9 /* InStatPendingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5786571A223556D5002960F9 /* InStatPendingIndicator.swift */; };
+		57865726223556D5002960F9 /* NSNotificationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5786571B223556D5002960F9 /* NSNotificationExtension.swift */; };
+		57865727223556D5002960F9 /* GlowMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5786571C223556D5002960F9 /* GlowMode.swift */; };
+		57865728223556D5002960F9 /* Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5786571D223556D5002960F9 /* Conversion.swift */; };
+		6540D94A2BDF4962FE89ADF5E8969B2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		6D2D72CA2E79A576FD91EA417A8A8B14 /* Pods-InStatDownloadButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A7AECCE6A7B220B32A7BF84787D032 /* Pods-InStatDownloadButton_Tests-dummy.m */; };
+		7C0E442225226803AE3EDFFE4AC7BD32 /* InStatDownloadButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E29EDB279856496A673A05619FD2CFE4 /* InStatDownloadButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98D9BD86B1D33006C4787B1E13A400A7 /* Pods-InStatDownloadButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26E08C412D59EE39E40E76C7EC82D5EA /* Pods-InStatDownloadButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE3D20C879D5192D621B83F11F15E715 /* Pods-InStatDownloadButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA9A082821F062A76176662715A98605 /* Pods-InStatDownloadButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3E0F3049807464638A8CDD39708E8B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		561722BE9EC1289C1BC90068815FFF78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DE1F47A8679DEC711C95B71A71C13CE;
+			remoteInfo = "Pods-InStatDownloadButton_Example";
+		};
+		A0E378D3CC41494C428557F5BFE6A60F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADE68FD56B0DC24BE3A5D816891ED4C0;
+			remoteInfo = InStatDownloadButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01093744580AD39BD7C7669720C5CEE2 /* Pods-InStatDownloadButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InStatDownloadButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0254F8A6862C711541229D4BCBC872EA /* Pods-InStatDownloadButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InStatDownloadButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0317B3CE3D77EA1092F523CDB4FCAFD2 /* Pods-InStatDownloadButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InStatDownloadButton_Example-dummy.m"; sourceTree = "<group>"; };
+		20B299DAEE36627D008F28A94CF38D34 /* InStatDownloadButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "InStatDownloadButton-Info.plist"; sourceTree = "<group>"; };
+		2549790DCC20E981CDF1E79CED437ACD /* InStatDownloadButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = InStatDownloadButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		26E08C412D59EE39E40E76C7EC82D5EA /* Pods-InStatDownloadButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InStatDownloadButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		28C19BA3B41674DD55A12DB1418DE6E1 /* Pods-InStatDownloadButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InStatDownloadButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		47B587E5A8A94B47150B2AAC10DBE2BB /* InStatDownloadButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "InStatDownloadButton-dummy.m"; sourceTree = "<group>"; };
+		482D9BB7DEA5A71683A19A95536A1E10 /* Pods_InStatDownloadButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InStatDownloadButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EF1C34A353899DCC0CDBA3169513CE1 /* Pods-InStatDownloadButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InStatDownloadButton_Tests-Info.plist"; sourceTree = "<group>"; };
+		4EFA8A80710A110C3282BAAEADEFD772 /* InStatDownloadButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InStatDownloadButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A83CE8D200E4E87D98FA4EB7C5C89E /* Pods-InStatDownloadButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InStatDownloadButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		57865713223556D4002960F9 /* ComparableExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComparableExtension.swift; sourceTree = "<group>"; };
+		57865714223556D4002960F9 /* InStatCircularProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InStatCircularProgress.swift; sourceTree = "<group>"; };
+		57865715223556D5002960F9 /* InStatDownloadButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InStatDownloadButton.swift; sourceTree = "<group>"; };
+		57865716223556D5002960F9 /* InStatDownloadButtonState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InStatDownloadButtonState.swift; sourceTree = "<group>"; };
+		57865717223556D5002960F9 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		57865718223556D5002960F9 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		57865719223556D5002960F9 /* InStatCircularProgressViewLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InStatCircularProgressViewLayer.swift; sourceTree = "<group>"; };
+		5786571A223556D5002960F9 /* InStatPendingIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InStatPendingIndicator.swift; sourceTree = "<group>"; };
+		5786571B223556D5002960F9 /* NSNotificationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSNotificationExtension.swift; sourceTree = "<group>"; };
+		5786571C223556D5002960F9 /* GlowMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlowMode.swift; sourceTree = "<group>"; };
+		5786571D223556D5002960F9 /* Conversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conversion.swift; sourceTree = "<group>"; };
+		5A27A63FA0EB1EE4DA1FF2DEFD483A2E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		65183AEA8E2D0B5EE4DB1F7DF8FB70EF /* InStatDownloadButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InStatDownloadButton.xcconfig; sourceTree = "<group>"; };
+		80A671CA1E761B075FD0DCB9E9CAE10C /* InStatDownloadButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InStatDownloadButton-prefix.pch"; sourceTree = "<group>"; };
+		87F6583E8F1020BDE3E4D52C0C366B5A /* Pods-InStatDownloadButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InStatDownloadButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		91A38F9616F77B608BBA960BC73AC9DE /* Pods-InStatDownloadButton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InStatDownloadButton_Example-Info.plist"; sourceTree = "<group>"; };
+		962CA49761DB1E6CF5AE14C2BA40F911 /* Pods-InStatDownloadButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InStatDownloadButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA9A082821F062A76176662715A98605 /* Pods-InStatDownloadButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InStatDownloadButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AB89F84AB907DD0A8B997B659F9D6247 /* Pods-InStatDownloadButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-InStatDownloadButton_Tests.modulemap"; sourceTree = "<group>"; };
+		AD916EAF2D9204545CB3F4E843C45B53 /* Pods-InStatDownloadButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-InStatDownloadButton_Example.modulemap"; sourceTree = "<group>"; };
+		C126FEB381BE0DE7B9FD1E8A09F500B6 /* Pods-InStatDownloadButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InStatDownloadButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C1298B065761B7F01DB246974BD20C7A /* InStatDownloadButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = InStatDownloadButton.modulemap; sourceTree = "<group>"; };
+		C74CDE5E4CD4C37B5123A5A0DC38F33A /* Pods_InStatDownloadButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InStatDownloadButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D702FF93C045C7D00F5C10605815284A /* Pods-InStatDownloadButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InStatDownloadButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D7A4AAC737C5D28F086F034BFD65F23F /* Pods-InStatDownloadButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InStatDownloadButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E29EDB279856496A673A05619FD2CFE4 /* InStatDownloadButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InStatDownloadButton-umbrella.h"; sourceTree = "<group>"; };
+		E2A7AECCE6A7B220B32A7BF84787D032 /* Pods-InStatDownloadButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InStatDownloadButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		F1718B3FDEDEFC932D2D3E8433B9CC00 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A5FAB2ACC77CB5BAC8174ABEA7ECAB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6540D94A2BDF4962FE89ADF5E8969B2B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31434642A96969DF6DC996CCAFD9EA36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E0F3049807464638A8CDD39708E8B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D6CB09977A86B052AD2A169AACF75B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF35E94A523F7C9AABA35A3F894E99E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B042A87A98B1E148936ECC565CFCF59 /* Pods-InStatDownloadButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				AD916EAF2D9204545CB3F4E843C45B53 /* Pods-InStatDownloadButton_Example.modulemap */,
+				D702FF93C045C7D00F5C10605815284A /* Pods-InStatDownloadButton_Example-acknowledgements.markdown */,
+				28C19BA3B41674DD55A12DB1418DE6E1 /* Pods-InStatDownloadButton_Example-acknowledgements.plist */,
+				0317B3CE3D77EA1092F523CDB4FCAFD2 /* Pods-InStatDownloadButton_Example-dummy.m */,
+				50A83CE8D200E4E87D98FA4EB7C5C89E /* Pods-InStatDownloadButton_Example-frameworks.sh */,
+				91A38F9616F77B608BBA960BC73AC9DE /* Pods-InStatDownloadButton_Example-Info.plist */,
+				26E08C412D59EE39E40E76C7EC82D5EA /* Pods-InStatDownloadButton_Example-umbrella.h */,
+				01093744580AD39BD7C7669720C5CEE2 /* Pods-InStatDownloadButton_Example.debug.xcconfig */,
+				C126FEB381BE0DE7B9FD1E8A09F500B6 /* Pods-InStatDownloadButton_Example.release.xcconfig */,
+			);
+			name = "Pods-InStatDownloadButton_Example";
+			path = "Target Support Files/Pods-InStatDownloadButton_Example";
+			sourceTree = "<group>";
+		};
+		1538B1035CD848E104370DC19F1181CA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2549790DCC20E981CDF1E79CED437ACD /* InStatDownloadButton.podspec */,
+				F1718B3FDEDEFC932D2D3E8433B9CC00 /* LICENSE */,
+				5A27A63FA0EB1EE4DA1FF2DEFD483A2E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578657112235566A002960F9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				57865718223556D5002960F9 /* Color.swift */,
+				57865713223556D4002960F9 /* ComparableExtension.swift */,
+				5786571D223556D5002960F9 /* Conversion.swift */,
+				5786571C223556D5002960F9 /* GlowMode.swift */,
+				57865714223556D4002960F9 /* InStatCircularProgress.swift */,
+				57865719223556D5002960F9 /* InStatCircularProgressViewLayer.swift */,
+				57865715223556D5002960F9 /* InStatDownloadButton.swift */,
+				57865716223556D5002960F9 /* InStatDownloadButtonState.swift */,
+				5786571A223556D5002960F9 /* InStatPendingIndicator.swift */,
+				5786571B223556D5002960F9 /* NSNotificationExtension.swift */,
+				57865717223556D5002960F9 /* Utility.swift */,
+			);
+			name = Classes;
+			path = InStatDownloadButton/Classes;
+			sourceTree = "<group>";
+		};
+		5786571222355679002960F9 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Assets;
+			path = InStatDownloadButton/Assets;
+			sourceTree = "<group>";
+		};
+		5C83DFCA1AE744F19AB72BDF5B7EC234 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5E66A365A889E1FBE93B36172D30F63 /* InStatDownloadButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		75C7C0E32A2E9ED6DA240453E955571B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B042A87A98B1E148936ECC565CFCF59 /* Pods-InStatDownloadButton_Example */,
+				86B79B97BCC903B1185B607BF9678BDC /* Pods-InStatDownloadButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		86B79B97BCC903B1185B607BF9678BDC /* Pods-InStatDownloadButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AB89F84AB907DD0A8B997B659F9D6247 /* Pods-InStatDownloadButton_Tests.modulemap */,
+				962CA49761DB1E6CF5AE14C2BA40F911 /* Pods-InStatDownloadButton_Tests-acknowledgements.markdown */,
+				0254F8A6862C711541229D4BCBC872EA /* Pods-InStatDownloadButton_Tests-acknowledgements.plist */,
+				E2A7AECCE6A7B220B32A7BF84787D032 /* Pods-InStatDownloadButton_Tests-dummy.m */,
+				4EF1C34A353899DCC0CDBA3169513CE1 /* Pods-InStatDownloadButton_Tests-Info.plist */,
+				AA9A082821F062A76176662715A98605 /* Pods-InStatDownloadButton_Tests-umbrella.h */,
+				D7A4AAC737C5D28F086F034BFD65F23F /* Pods-InStatDownloadButton_Tests.debug.xcconfig */,
+				87F6583E8F1020BDE3E4D52C0C366B5A /* Pods-InStatDownloadButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-InStatDownloadButton_Tests";
+			path = "Target Support Files/Pods-InStatDownloadButton_Tests";
+			sourceTree = "<group>";
+		};
+		89F5C6C85810F1F9500987B7EC97BC3C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1298B065761B7F01DB246974BD20C7A /* InStatDownloadButton.modulemap */,
+				65183AEA8E2D0B5EE4DB1F7DF8FB70EF /* InStatDownloadButton.xcconfig */,
+				47B587E5A8A94B47150B2AAC10DBE2BB /* InStatDownloadButton-dummy.m */,
+				20B299DAEE36627D008F28A94CF38D34 /* InStatDownloadButton-Info.plist */,
+				80A671CA1E761B075FD0DCB9E9CAE10C /* InStatDownloadButton-prefix.pch */,
+				E29EDB279856496A673A05619FD2CFE4 /* InStatDownloadButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/InStatDownloadButton";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CBCFB3C074D03BFAD54FFF4216AC6477 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EFA8A80710A110C3282BAAEADEFD772 /* InStatDownloadButton.framework */,
+				482D9BB7DEA5A71683A19A95536A1E10 /* Pods_InStatDownloadButton_Example.framework */,
+				C74CDE5E4CD4C37B5123A5A0DC38F33A /* Pods_InStatDownloadButton_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5C83DFCA1AE744F19AB72BDF5B7EC234 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				CBCFB3C074D03BFAD54FFF4216AC6477 /* Products */,
+				75C7C0E32A2E9ED6DA240453E955571B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5E66A365A889E1FBE93B36172D30F63 /* InStatDownloadButton */ = {
+			isa = PBXGroup;
+			children = (
+				5786571222355679002960F9 /* Assets */,
+				578657112235566A002960F9 /* Classes */,
+				1538B1035CD848E104370DC19F1181CA /* Pod */,
+				89F5C6C85810F1F9500987B7EC97BC3C /* Support Files */,
+			);
+			name = InStatDownloadButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A9BD9E1EB74CD9584A2AD2302FBEAFE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D9BD86B1D33006C4787B1E13A400A7 /* Pods-InStatDownloadButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A452E0BF23AEBFB8BEDED10F6225C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C0E442225226803AE3EDFFE4AC7BD32 /* InStatDownloadButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F52A62E19F3B6257C07AB60C6233115 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3D20C879D5192D621B83F11F15E715 /* Pods-InStatDownloadButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		319302ED7973359B2F5F87C902D481F6 /* Pods-InStatDownloadButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7C0F894AEE931FEF61E2F03C252C949 /* Build configuration list for PBXNativeTarget "Pods-InStatDownloadButton_Tests" */;
+			buildPhases = (
+				3F52A62E19F3B6257C07AB60C6233115 /* Headers */,
+				F35AC0A368B1367DEF21D14DA69DE47A /* Sources */,
+				F4D6CB09977A86B052AD2A169AACF75B /* Frameworks */,
+				3396A336CAFA59F3004C1EEFE1885CC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2324243F88F54E02B7F3E6FA57DFC9CE /* PBXTargetDependency */,
+			);
+			name = "Pods-InStatDownloadButton_Tests";
+			productName = "Pods-InStatDownloadButton_Tests";
+			productReference = C74CDE5E4CD4C37B5123A5A0DC38F33A /* Pods_InStatDownloadButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7DE1F47A8679DEC711C95B71A71C13CE /* Pods-InStatDownloadButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259A572F8A7A4F91FE66FE4C7549D764 /* Build configuration list for PBXNativeTarget "Pods-InStatDownloadButton_Example" */;
+			buildPhases = (
+				0A9BD9E1EB74CD9584A2AD2302FBEAFE /* Headers */,
+				A0A3A05FD184D06B2729586396A114CA /* Sources */,
+				31434642A96969DF6DC996CCAFD9EA36 /* Frameworks */,
+				557C6EEB50674E90E60FA3E2A036EBED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11ECDF2E6947BC2C905D409297844B4A /* PBXTargetDependency */,
+			);
+			name = "Pods-InStatDownloadButton_Example";
+			productName = "Pods-InStatDownloadButton_Example";
+			productReference = 482D9BB7DEA5A71683A19A95536A1E10 /* Pods_InStatDownloadButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ADE68FD56B0DC24BE3A5D816891ED4C0 /* InStatDownloadButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C48666A24C1100C73E7B4645D2E284BA /* Build configuration list for PBXNativeTarget "InStatDownloadButton" */;
+			buildPhases = (
+				34A452E0BF23AEBFB8BEDED10F6225C6 /* Headers */,
+				7B492568B4413F5C70D8829E543EF1BC /* Sources */,
+				0A5FAB2ACC77CB5BAC8174ABEA7ECAB5 /* Frameworks */,
+				5CCFA6E2B8D416228ED270C7314DA68E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InStatDownloadButton;
+			productName = InStatDownloadButton;
+			productReference = 4EFA8A80710A110C3282BAAEADEFD772 /* InStatDownloadButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					ADE68FD56B0DC24BE3A5D816891ED4C0 = {
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CBCFB3C074D03BFAD54FFF4216AC6477 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADE68FD56B0DC24BE3A5D816891ED4C0 /* InStatDownloadButton */,
+				7DE1F47A8679DEC711C95B71A71C13CE /* Pods-InStatDownloadButton_Example */,
+				319302ED7973359B2F5F87C902D481F6 /* Pods-InStatDownloadButton_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3396A336CAFA59F3004C1EEFE1885CC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557C6EEB50674E90E60FA3E2A036EBED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CCFA6E2B8D416228ED270C7314DA68E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B492568B4413F5C70D8829E543EF1BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57865725223556D5002960F9 /* InStatPendingIndicator.swift in Sources */,
+				57865727223556D5002960F9 /* GlowMode.swift in Sources */,
+				57865720223556D5002960F9 /* InStatDownloadButton.swift in Sources */,
+				180418766BAAEFC74A23F13EEA275FFD /* InStatDownloadButton-dummy.m in Sources */,
+				57865723223556D5002960F9 /* Color.swift in Sources */,
+				57865722223556D5002960F9 /* Utility.swift in Sources */,
+				57865726223556D5002960F9 /* NSNotificationExtension.swift in Sources */,
+				5786571E223556D5002960F9 /* ComparableExtension.swift in Sources */,
+				57865724223556D5002960F9 /* InStatCircularProgressViewLayer.swift in Sources */,
+				57865728223556D5002960F9 /* Conversion.swift in Sources */,
+				57865721223556D5002960F9 /* InStatDownloadButtonState.swift in Sources */,
+				5786571F223556D5002960F9 /* InStatCircularProgress.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0A3A05FD184D06B2729586396A114CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5517BAF7B35FB4DCF9925F61C17308D3 /* Pods-InStatDownloadButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35AC0A368B1367DEF21D14DA69DE47A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D2D72CA2E79A576FD91EA417A8A8B14 /* Pods-InStatDownloadButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11ECDF2E6947BC2C905D409297844B4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = InStatDownloadButton;
+			target = ADE68FD56B0DC24BE3A5D816891ED4C0 /* InStatDownloadButton */;
+			targetProxy = A0E378D3CC41494C428557F5BFE6A60F /* PBXContainerItemProxy */;
+		};
+		2324243F88F54E02B7F3E6FA57DFC9CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-InStatDownloadButton_Example";
+			target = 7DE1F47A8679DEC711C95B71A71C13CE /* Pods-InStatDownloadButton_Example */;
+			targetProxy = 561722BE9EC1289C1BC90068815FFF78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D517E5C03CC2C7636E390460BF11099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01093744580AD39BD7C7669720C5CEE2 /* Pods-InStatDownloadButton_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-InStatDownloadButton_Example/Pods-InStatDownloadButton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InStatDownloadButton_Example/Pods-InStatDownloadButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		138256216526E588B24D685AD9A18F15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65183AEA8E2D0B5EE4DB1F7DF8FB70EF /* InStatDownloadButton.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/InStatDownloadButton/InStatDownloadButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/InStatDownloadButton/InStatDownloadButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/InStatDownloadButton/InStatDownloadButton.modulemap";
+				PRODUCT_MODULE_NAME = InStatDownloadButton;
+				PRODUCT_NAME = InStatDownloadButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		44FB4470B7E5A0AB9786CC50891DCE25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65183AEA8E2D0B5EE4DB1F7DF8FB70EF /* InStatDownloadButton.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/InStatDownloadButton/InStatDownloadButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/InStatDownloadButton/InStatDownloadButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/InStatDownloadButton/InStatDownloadButton.modulemap";
+				PRODUCT_MODULE_NAME = InStatDownloadButton;
+				PRODUCT_NAME = InStatDownloadButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		601B0BB5DAB3C4318950BFF2E3BD28F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87F6583E8F1020BDE3E4D52C0C366B5A /* Pods-InStatDownloadButton_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-InStatDownloadButton_Tests/Pods-InStatDownloadButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InStatDownloadButton_Tests/Pods-InStatDownloadButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6FB00EE9DC9F6EBD661FB586832B66D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7A4AAC737C5D28F086F034BFD65F23F /* Pods-InStatDownloadButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-InStatDownloadButton_Tests/Pods-InStatDownloadButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InStatDownloadButton_Tests/Pods-InStatDownloadButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DACCFC216DBD47AC09ED74E9CBD8C001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C126FEB381BE0DE7B9FD1E8A09F500B6 /* Pods-InStatDownloadButton_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-InStatDownloadButton_Example/Pods-InStatDownloadButton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InStatDownloadButton_Example/Pods-InStatDownloadButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		259A572F8A7A4F91FE66FE4C7549D764 /* Build configuration list for PBXNativeTarget "Pods-InStatDownloadButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D517E5C03CC2C7636E390460BF11099 /* Debug */,
+				DACCFC216DBD47AC09ED74E9CBD8C001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
+				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C48666A24C1100C73E7B4645D2E284BA /* Build configuration list for PBXNativeTarget "InStatDownloadButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44FB4470B7E5A0AB9786CC50891DCE25 /* Debug */,
+				138256216526E588B24D685AD9A18F15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7C0F894AEE931FEF61E2F03C252C949 /* Build configuration list for PBXNativeTarget "Pods-InStatDownloadButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FB00EE9DC9F6EBD661FB586832B66D8 /* Debug */,
+				601B0BB5DAB3C4318950BFF2E3BD28F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -30,8 +30,8 @@
 /* Begin PBXFileReference section */
 		08E32FB1244876F5CEED2D6D /* Pods-InStatDownloadButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InStatDownloadButton_Example.release.xcconfig"; path = "Target Support Files/Pods-InStatDownloadButton_Example/Pods-InStatDownloadButton_Example.release.xcconfig"; sourceTree = "<group>"; };
 		11D341E619289D4D66E25BAC /* Pods_InStatDownloadButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InStatDownloadButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		16833D63320E0BB3DA5CACDB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		481AB786CDD3AA9566C7FEC7 /* InStatDownloadButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = InStatDownloadButton.podspec; path = ../InStatDownloadButton.podspec; sourceTree = "<group>"; };
+		16833D63320E0BB3DA5CACDB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		481AB786CDD3AA9566C7FEC7 /* InStatDownloadButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = InStatDownloadButton.podspec; path = ../InStatDownloadButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4A601DAABF0C12853235D7A7 /* Pods-InStatDownloadButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InStatDownloadButton_Tests.release.xcconfig"; path = "Target Support Files/Pods-InStatDownloadButton_Tests/Pods-InStatDownloadButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5199D9D3910885AC34887FDF /* Pods-InStatDownloadButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InStatDownloadButton_Example.debug.xcconfig"; path = "Target Support Files/Pods-InStatDownloadButton_Example/Pods-InStatDownloadButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* InStatDownloadButton_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InStatDownloadButton_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,7 +46,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		685024E0BE01432425CEF4A2 /* Pods_InStatDownloadButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InStatDownloadButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B8E7C0A96B72DFB44662B50 /* Pods-InStatDownloadButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InStatDownloadButton_Tests.debug.xcconfig"; path = "Target Support Files/Pods-InStatDownloadButton_Tests/Pods-InStatDownloadButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BDCEB2A03E5D8CC7C90A092A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BDCEB2A03E5D8CC7C90A092A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				7B8E7C0A96B72DFB44662B50 /* Pods-InStatDownloadButton_Tests.debug.xcconfig */,
 				4A601DAABF0C12853235D7A7 /* Pods-InStatDownloadButton_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

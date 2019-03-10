@@ -1,0 +1,6 @@
+framework module InStatDownloadButton {
+  umbrella header "InStatDownloadButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

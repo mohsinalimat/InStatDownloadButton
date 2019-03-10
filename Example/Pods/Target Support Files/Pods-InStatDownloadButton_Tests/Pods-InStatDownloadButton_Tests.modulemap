@@ -1,0 +1,6 @@
+framework module Pods_InStatDownloadButton_Tests {
+  umbrella header "Pods-InStatDownloadButton_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
