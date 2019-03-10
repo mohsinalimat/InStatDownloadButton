@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'InStatDownloadButton_Example' do
+  pod 'InStatDownloadButton', :path => '../'
+
+  target 'InStatDownloadButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
