@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-	UIButton with indicator/progress
+	InStatDownloadButton with indicator/progress
                        DESC
 
   s.homepage         = 'https://github.com/tularovbeslan/InStatDownloadButton'
