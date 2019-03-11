@@ -1,30 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="O6K-pv-Loa">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <scene sceneID="0ye-8g-vLB">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="InStatDownloadButton_Example" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                <viewController id="O6K-pv-Loa" customClass="ViewController" customModule="InStatDownloadButton_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CXV-ac-nBm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YJN-AO-P7g" customClass="InStatDownloadButton" customModule="InStatDownloadButton">
+                                <rect key="frame" x="170.5" y="70" width="34" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="ebR-zj-vGY"/>
+                                    <constraint firstAttribute="width" constant="34" id="fxe-Sd-Jii"/>
+                                </constraints>
+                                <state key="normal" image="download_video"/>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="KCj-g3-Vnd">
+                                <rect key="frame" x="20" y="154" width="335" height="29"/>
+                                <segments>
+                                    <segment title="start"/>
+                                    <segment title="pending"/>
+                                    <segment title="downloading"/>
+                                    <segment title="finish"/>
+                                </segments>
+                                <connections>
+                                    <action selector="changeState:" destination="O6K-pv-Loa" eventType="valueChanged" id="Zmj-VA-TKm"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="KCj-g3-Vnd" firstAttribute="leading" secondItem="Fqf-Ts-LTW" secondAttribute="leading" constant="20" id="4xA-Tt-YVR"/>
+                            <constraint firstItem="YJN-AO-P7g" firstAttribute="top" secondItem="Fqf-Ts-LTW" secondAttribute="top" constant="50" id="7LN-59-P0s"/>
+                            <constraint firstItem="Fqf-Ts-LTW" firstAttribute="trailing" secondItem="KCj-g3-Vnd" secondAttribute="trailing" constant="20" id="FoB-Va-Oo6"/>
+                            <constraint firstItem="KCj-g3-Vnd" firstAttribute="top" secondItem="YJN-AO-P7g" secondAttribute="bottom" constant="50" id="Ygn-Vl-bRh"/>
+                            <constraint firstItem="YJN-AO-P7g" firstAttribute="centerX" secondItem="CXV-ac-nBm" secondAttribute="centerX" id="dwF-nR-65e"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Fqf-Ts-LTW"/>
                     </view>
+                    <connections>
+                        <outlet property="downloadButton" destination="YJN-AO-P7g" id="pEO-Tr-5Pt"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="czL-DO-caM" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="download_video" width="23" height="22"/>
+    </resources>
 </document>

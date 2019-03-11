@@ -33,19 +33,12 @@ public class InStatDownloadButton: UIButton {
 				addSubview(progressView)
 				setupProgressConstraints()
 
-				NotificationCenter.default.addObserver(self, selector: #selector(updateProgress), name: NSNotification.Name.InStatDownloadButtonDownloading, object: nil)
-
 			case .finish:
 				setImage(nil, for: .normal)
 				indicatorView.removeFromSuperview()
 				progressView.removeFromSuperview()
 			}
 		}
-	}
-
-	fileprivate func removeNotification() {
-
-		NotificationCenter.default.removeObserver(self, name: Notification.Name.InStatDownloadButtonDownloading, object: nil)
 	}
 
 	// MARK: - UI
@@ -86,10 +79,6 @@ public class InStatDownloadButton: UIButton {
 		image = image(for: .normal)
 	}
 
-	deinit {
-		removeNotification()
-	}
-
 	// MARK: - Setup
 
 	fileprivate func setupIndicatorConstraints() {
@@ -106,12 +95,5 @@ public class InStatDownloadButton: UIButton {
 		progressView.leftAnchor.constraint(equalTo: leftAnchor).isActive = true
 		progressView.rightAnchor.constraint(equalTo: rightAnchor).isActive = true
 		progressView.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true
-	}
-
-	@objc fileprivate func updateProgress(_ notification: Notification) {
-
-		if let angle = notification.userInfo?["angle"] as? Double {
-			progressView.angle = angle
-		}
 	}
 }

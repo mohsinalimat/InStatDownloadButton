@@ -7,18 +7,45 @@
 //
 
 import UIKit
+import InStatDownloadButton
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+	@IBOutlet weak var downloadButton: InStatDownloadButton!
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+	var downloadTimer: Timer?
 
+	override func viewDidLoad() {
+		super.viewDidLoad()
+
+
+	}
+
+	func simulateDownloading() {
+		var angle: Double = 0
+		downloadTimer = Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true) { timer in
+			angle += 10
+
+			self.downloadButton.progressView.angle = angle
+		}
+		downloadTimer?.fire()
+	}
+
+	@IBAction func changeState(_ sender: UISegmentedControl) {
+		downloadTimer?.invalidate()
+		switch sender.selectedSegmentIndex {
+		case 0:
+			downloadButton.downloadState = .start
+		case 1:
+			downloadButton.downloadState = .pending
+		case 2:
+			downloadButton.downloadState = .downloading
+			simulateDownloading()
+		case 3:
+			downloadButton.downloadState = .finish
+		default:
+			break
+		}
+	}
 }
 
