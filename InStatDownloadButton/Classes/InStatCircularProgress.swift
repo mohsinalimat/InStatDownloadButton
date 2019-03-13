@@ -104,6 +104,13 @@ public class InStatCircularProgress: UIView, CAAnimationDelegate {
 		}
 	}
 
+	public var stopColor: CGColor = UIColor.blue.cgColor {
+		didSet {
+			stopLayer.backgroundColor = stopColor
+			stopLayer.setNeedsDisplay()
+		}
+	}
+
 	public var progressInsideFillColor: UIColor? = nil {
 		didSet {
 			progressLayer.progressInsideFillColor = progressInsideFillColor ?? .clear
@@ -267,5 +274,6 @@ public class InStatCircularProgress: UIView, CAAnimationDelegate {
 		stopLayer.frame = CGRect(x: frame.origin.x, y: frame.origin.y, width: frame.width * 0.3, height: frame.height * 0.3)
 		stopLayer.cornerRadius = stopLayer.frame.width * 0.15
 		stopLayer.position = center
+		stopLayer.backgroundColor = stopColor
 	}
 }

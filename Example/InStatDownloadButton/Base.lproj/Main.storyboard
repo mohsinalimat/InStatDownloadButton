@@ -26,18 +26,25 @@
                                 </constraints>
                                 <state key="normal" image="download_video"/>
                             </button>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="KCj-g3-Vnd">
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" apportionsSegmentWidthsByContent="YES" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="KCj-g3-Vnd">
                                 <rect key="frame" x="20" y="154" width="335" height="29"/>
                                 <segments>
                                     <segment title="start"/>
                                     <segment title="pending"/>
                                     <segment title="downloading"/>
+                                    <segment title="stop"/>
                                     <segment title="finish"/>
                                 </segments>
                                 <connections>
                                     <action selector="changeState:" destination="O6K-pv-Loa" eventType="valueChanged" id="Zmj-VA-TKm"/>
                                 </connections>
                             </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="State" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bf8-Yb-wiQ">
+                                <rect key="frame" x="167" y="125" width="41" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -45,13 +52,16 @@
                             <constraint firstItem="KCj-g3-Vnd" firstAttribute="leading" secondItem="Fqf-Ts-LTW" secondAttribute="leading" constant="20" id="4xA-Tt-YVR"/>
                             <constraint firstItem="YJN-AO-P7g" firstAttribute="top" secondItem="Fqf-Ts-LTW" secondAttribute="top" constant="50" id="7LN-59-P0s"/>
                             <constraint firstItem="Fqf-Ts-LTW" firstAttribute="trailing" secondItem="KCj-g3-Vnd" secondAttribute="trailing" constant="20" id="FoB-Va-Oo6"/>
+                            <constraint firstItem="Bf8-Yb-wiQ" firstAttribute="centerX" secondItem="CXV-ac-nBm" secondAttribute="centerX" id="HXt-ip-gBD"/>
                             <constraint firstItem="KCj-g3-Vnd" firstAttribute="top" secondItem="YJN-AO-P7g" secondAttribute="bottom" constant="50" id="Ygn-Vl-bRh"/>
                             <constraint firstItem="YJN-AO-P7g" firstAttribute="centerX" secondItem="CXV-ac-nBm" secondAttribute="centerX" id="dwF-nR-65e"/>
+                            <constraint firstItem="KCj-g3-Vnd" firstAttribute="top" secondItem="Bf8-Yb-wiQ" secondAttribute="bottom" constant="8" id="vFg-yP-yn6"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Fqf-Ts-LTW"/>
                     </view>
                     <connections>
                         <outlet property="downloadButton" destination="YJN-AO-P7g" id="pEO-Tr-5Pt"/>
+                        <outlet property="segmentedControl" destination="KCj-g3-Vnd" id="tWR-h2-S4R"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="czL-DO-caM" sceneMemberID="firstResponder"/>

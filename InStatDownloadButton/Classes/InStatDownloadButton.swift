@@ -16,6 +16,7 @@ public class InStatDownloadButton: UIButton {
 
 			switch downloadState {
 			case .start:
+				isSelected = true
 				indicatorView.removeFromSuperview()
 				progressView.removeFromSuperview()
 				self.setImage(image, for: .normal)
@@ -32,6 +33,12 @@ public class InStatDownloadButton: UIButton {
 				setImage(nil, for: .normal)
 				addSubview(progressView)
 				setupProgressConstraints()
+
+			case .stop:
+				isSelected = false
+				indicatorView.removeFromSuperview()
+				progressView.removeFromSuperview()
+				self.setImage(image, for: .normal)
 
 			case .finish:
 				setImage(nil, for: .normal)
